@@ -42,7 +42,7 @@ const Calculator = () => {
             const transform = `translateY(${-(expDiv.offsetHeight + 10) + 'px'}) scale(0.4)`;
 
             try {
-                let res = Function(expression);
+                let res = eval(expression);
 
                 setExpression(res.toString());
                 setTimeout(() => {
