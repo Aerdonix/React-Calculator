@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import './Calculator.css';
 import { btns, BTN_ACTIONS } from "./btnConfig";
-import { cleanup } from "@testing-library/react";
 
 const Calculator = () => {
 
@@ -43,7 +42,7 @@ const Calculator = () => {
             const transform = `translateY(${-(expDiv.offsetHeight + 10) + 'px'}) scale(0.4)`;
 
             try {
-                let res = eval(expression);
+                let res = Function(expression);
 
                 setExpression(res.toString());
                 setTimeout(() => {
