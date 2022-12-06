@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Aerdonix/react-calculator/static/css/main.26846847.css",
+    "main.js": "/Aerdonix/react-calculator/static/js/main.30ceab4b.js",
+    "index.html": "/Aerdonix/react-calculator/index.html",
+    "main.26846847.css.map": "/Aerdonix/react-calculator/static/css/main.26846847.css.map",
+    "main.30ceab4b.js.map": "/Aerdonix/react-calculator/static/js/main.30ceab4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26846847.css",
+    "static/js/main.30ceab4b.js"
+  ]
+}
